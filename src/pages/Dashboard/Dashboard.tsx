@@ -1,4 +1,4 @@
-import { Navbar,Search,Info,User } from "../../components"
+import { Navbar,Search,Info,User,Repos } from "../../components"
 import { loadingGif } from "../../assets"
 import { GithubContext } from "../../context"
 import { useContext } from "react"
@@ -22,6 +22,7 @@ export const Dashboard = () => {
             <Search />
             <Info />
             <User />
+            <Repos />
         </div>
     )
 }
